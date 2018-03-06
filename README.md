@@ -1,0 +1,1 @@
+One game per week
