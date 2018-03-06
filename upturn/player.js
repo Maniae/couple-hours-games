@@ -22,8 +22,11 @@ class Player {
 	}
 
 	handleBorderBounce() {
-		if (this.x > width - this.radius / 2 || this.x < this.radius / 2) {
-			this.vx *= -1
+		if (this.x > width - this.radius / 2) {
+			this.vx = -Math.abs(this.vx);
+		}
+		if (this.x < this.radius / 2) {
+			this.vx = Math.abs(this.vx);
 		}
 	}
 
