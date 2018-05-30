@@ -1,6 +1,7 @@
-#UPTURN
+# UPTURN
 
-## Commands: 
+## Commands
+
 <- : Left
 
 -> : Right
